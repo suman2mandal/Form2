@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- Title -->
-    <div class="text-center p-4 bg-info" style="color:white;text-transform: uppercase;">
+    <div class="text-center p-4 bg-primary mb-3" style="color:white;text-transform: uppercase;">
         <h1>The Neotia University</h1>
     </div>
     <div class="container p-4" style="background-image:linear-gradient(to right,rgb(77, 1, 255),rgb(129, 23, 179));color:white;">
@@ -355,12 +355,266 @@
                 <input type="text" class="form-control" id="Materials" required="">
             </div>
         </div>
+
+
+        <hr class="border border-primary border-3 opacity-75">
+        <div class="row mb-3">
+            <label for="" class="col-sm-4 col-form-label "><b>Doctoral Students Details:</b></label>
+        </div>
+        <div class="row mb-3">
+            <label for="Materials" class="col-sm-5 col-form-label text-end"><b>PhD Students (Awarded):</b></label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="Materials" required="">
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <label for="Materials" class="col-sm-5 col-form-label text-end"><b>PhD Students (Ongoing):</b></label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="Materials" required="">
+            </div>
+        </div>
+
+
+
+        <hr class="border border-primary border-3 opacity-75">
+        <div class="row mb-3">
+            <label for="" class="col-sm-4 col-form-label text-end"><b>Awards & Recognitions:</b></label>
+
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="Materials" required="">
+            </div>
+        </div>
+
+        <!-- ⦁	Administrative Responsibilities
+            ⦁	Admission Related
+            ⦁	Club Activities
+            ⦁	Mentoring
+            ⦁	Internship record
+                ⦁	Internally Coordinated
+                ⦁	External Arrangement -->
+
+        <hr class="border border-primary border-3 opacity-75">
+        <div class="row mb-3">
+            <label for="" class="col-sm-4 col-form-label text-end"><b>Administrative Responsibilities:</b></label>
+
+            <div class="row mb-2">
+                <label for="Admission" class="col-sm-5 col-form-label text-end"><b>Admission Related.:</b></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Admission" required="">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <label for="Club" class="col-sm-5 col-form-label text-end"><b>Club Activities:</b></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Club" required="">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <label for="Mentoring" class="col-sm-5 col-form-label text-end"><b>Mentoring.:</b></label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Mentoring" required="">
+                </div>
+            </div>
+            <div class="row mb-2">
+                <label for="Materials" class="col-sm-5 col-form-label text-center"><b>Internship record.:</b></label>
+                <div class="row mb-2">
+                    <label for="Coordinated" class="col-sm-5 col-form-label text-end"><b>Internally Coordinated.:</b></label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="Coordinated" required="">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <label for="Arrangement" class="col-sm-5 col-form-label text-end"><b>External Arrangement.:</b></label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" id="Arrangement" required="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- 
+        ⦁	Miscellaneous
+            ⦁	Best Peer Reviewed Publication
+            ⦁	PhD Thesis Review
+            ⦁	Master’s Thesis Review
+            ⦁	Professional Body Membership
+            ⦁	Editorials
+            ⦁	Reviewer for Journals
+            ⦁	Conference/Workshop/Special-Session Organised
+            ⦁	Talks and Conference Presentations
+            ⦁	External Assignments
+            ⦁	Workshop/Conference/Meeting Attended: -->
+            <hr class="border border-primary border-3 opacity-75">
+            <div class="row mb-3">
+                <label for="" class="col-sm-4 col-form-label "><b>Miscellaneous:</b></label>
+            </div>
+
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Publication">
+                    <label class="form-check-label col-8 text-center" for="Publication">
+                        Best Peer Reviewed Publication
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Publication" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Reviewed">
+                    <label class="form-check-label col-8 text-center" for="Reviewed">
+                        PhD Thesis Review
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Reviewed" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Thesis">
+                    <label class="form-check-label col-8 text-center" for="Thesis">
+                        Master’s Thesis Review
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Thesis" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Professional">
+                    <label class="form-check-label col-8 text-center" for="Professional">
+                        Professional Body Membership
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Professional" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Editorials">
+                    <label class="form-check-label col-8 text-center" for="Editorials">
+                        Editorials
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Editorials" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Journals">
+                    <label class="form-check-label col-8 text-center" for="Journals">
+                        Reviewer for Journals
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Journals" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Organised">
+                    <label class="form-check-label col-8 text-center" for="Organised">
+                        Conference/Workshop/Special-Session Organised
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Organised" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Presentations">
+                    <label class="form-check-label col-8 text-center" for="Presentations">
+                        Talks and Conference Presentations
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Presentations" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Assignments">
+                    <label class="form-check-label col-8 text-center" for="Assignments">
+                        External Assignments
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Assignments" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="Attended">
+                    <label class="form-check-label col-8 text-center" for="Attended">
+                        Workshop/Conference/Meeting Attended
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="Attended" required="">
+                </div>
+            </div>
+            
+
+        <!-- ⦁	Industry Collaboration -->
+        <hr class="border border-primary border-3 opacity-75">
+        <div class="row mb-3">
+            <label for="" class="col-sm-4 col-form-label text-center"><b>Industry Collaboration.:</b></label>
+
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="Materials" required="">
+            </div>
+        </div>
+        <!-- ⦁	Academic Identity
+            ⦁	ORC ID
+            ⦁	SCOPUS ID
+            ⦁	GOOGLE SCHOLAR ID -->
+            <hr class="border border-primary border-3 opacity-75">
+            <div class="row mb-3">
+                <label for="" class="col-sm-4 col-form-label "><b>Academic Identity:</b></label>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="ORC">
+                    <label class="form-check-label col-8 text-center" for="ORC">
+                        ORC ID
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="ORC" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="SCOPUS">
+                    <label class="form-check-label col-8 text-center" for="SCOPUS">
+                        SCOPUS ID
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="SCOPUS" required="">
+                </div>
+            </div>
+            <div class="row d-flex mb-3">
+                <div class="col justify-content-end d-flex">
+                    <input class="form-check-input col-2" type="checkbox" value="" id="GOOGLE">
+                    <label class="form-check-label col-8 text-center" for="GOOGLE">
+                        GOOGLE SCHOLAR ID
+                    </label>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control col-4" id="GOOGLE" required="">
+                </div>
+            </div>
+            
+
     </div>
-
-
-
-    <hr class="border border-primary border-3 opacity-75">
-
     </div>
 
     <div class="d-flex p-3 justify-content-center">
